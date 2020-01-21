@@ -1,6 +1,6 @@
 def call(int buildNumber) {
   if (buildNumber % 2 == 0) {
-    pipleline {
+    pipeline {
       agent any
       stages('even') {
         steps {
@@ -9,7 +9,7 @@ def call(int buildNumber) {
       }
     }
   } else {
-    pipleline {
+    pipeline {
       agent any
       stages('odd') {
         steps {
