@@ -8,3 +8,7 @@ def info(msg) {
 def warn(msg) {
   echo "WARN: $msg"
 }
+
+def isPrime(num) {
+  return Primes.isPrime(num)
+}
