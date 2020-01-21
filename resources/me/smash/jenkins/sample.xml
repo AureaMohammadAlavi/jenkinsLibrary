@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.smash.SomeClassTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-01-21T12:11:17" hostname="MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="test1" classname="me.smash.SomeClassTest1" time="0.001"/>
+  <testcase name="test2" classname="me.smash.SomeClassTest2" time="0.002"/>
+  <testcase name="test3" classname="me.smash.SomeClassTest3" time="0.003"/>
+  <testcase name="test4" classname="me.smash.SomeClassTest4" time="0.004"/>
+  <testcase name="test5" classname="me.smash.SomeClassTest5" time="0.005"/>
+  <testcase name="test6" classname="me.smash.SomeClassTest6" time="0.006"/>
+  <testcase name="test7" classname="me.smash.SomeClassTest7" time="0.007"/>
+  <testcase name="test8" classname="me.smash.SomeClassTest8" time="0.008"/>
+  <testcase name="test9" classname="me.smash.SomeClassTest9" time="0.009"/>
+  <testcase name="test10" classname="me.smash.SomeClassTest10" time="0.010"/>
+  <testcase name="test11" classname="me.smash.SomeClassTest11" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
