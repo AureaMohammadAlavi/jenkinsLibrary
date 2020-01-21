@@ -8,6 +8,6 @@ class MyLibrary {
 
   def printMessage(String msg) {
     steps.echo message: msg
-    steps.echo message: steps.getProperties()
+    steps.echo message: "${steps.getProperties()}"
   }
 }
