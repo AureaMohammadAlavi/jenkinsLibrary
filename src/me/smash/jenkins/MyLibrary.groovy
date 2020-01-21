@@ -1,6 +1,6 @@
 package me.smash.jenkins
 
-class MyLibrary {
+class MyLibrary implements Serializable {
   def steps
   MyLibrary(steps) {
     this.steps = steps
