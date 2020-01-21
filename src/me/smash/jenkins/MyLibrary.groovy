@@ -8,5 +8,6 @@ class MyLibrary {
 
   def printMessage(String msg) {
     steps.echo message: msg
+    steps.echo message: steps.tool.jdk
   }
 }
