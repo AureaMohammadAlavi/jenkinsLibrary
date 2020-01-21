@@ -25,7 +25,9 @@ class MyLibrary {
 
   def printMessage(String msg) {
     steps.echo message: msg
-    printAllMethods(steps)
+    def java13 = steps.evaluate("tool.java13")
+    steps.echo message: "java13: $java13"
+    // printAllMethods(steps)
 
   }
 }
