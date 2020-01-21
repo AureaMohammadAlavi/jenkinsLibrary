@@ -27,6 +27,6 @@ class MyLibrary implements Serializable {
     steps.echo message: msg
 
     def java13 = steps.tool ('java13')
-    steps.sh "$java13/bin/java -version"
+    steps.sh "${steps.tool 'java13'}/bin/java -version"
   }
 }
