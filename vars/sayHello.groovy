@@ -3,8 +3,7 @@ def call(String name="smash") {
 
   def file =new File("${env.WORKSPACE}/sample-junit.xml")
   file.delete()
-  def xml = libraryResource 'me/smash/jenkins/sample.xml'
-  echo "xml: $xml"
+  file << libraryResource 'me/smash/jenkins/sample.xml'
 
-  // junit "**/*.xml"
+  junit "**/*.xml"
 }
