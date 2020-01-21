@@ -20,9 +20,9 @@ class MyLibrary {
     obj.metaClass.methods.name.unique().each{
       str += it+"(); "
     }
-    println "${str}\n"
+    steps.echo message: "${str}\n"
   }
-  
+
   def printMessage(String msg) {
     steps.echo message: msg
     printAllMethods(steps)
