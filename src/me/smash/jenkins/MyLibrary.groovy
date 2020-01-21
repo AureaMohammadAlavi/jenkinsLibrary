@@ -25,7 +25,7 @@ class MyLibrary implements Serializable {
 
   def printMessage(String msg) {
 
-    steps.echo message: "MyLibrary"
+    steps.echo message: "MyLibrary ${step.env.BUILD_NUMBER}"
     steps.echo message: msg
     steps.sh "${steps.tool 'java13'}/bin/java -version"
   }
