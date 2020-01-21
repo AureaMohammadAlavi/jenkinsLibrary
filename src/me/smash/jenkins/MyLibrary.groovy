@@ -1,7 +1,7 @@
 package me.smash.jenkins
 
-def printMessage(String msg) {
-  echo message: msg
+class MyLibrary {
+  def printMessage(String msg) {
+    echo message: msg
+  }
 }
-
-return this
