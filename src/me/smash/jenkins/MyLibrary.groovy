@@ -1,7 +1,12 @@
 package me.smash.jenkins
 
 class MyLibrary {
+  def steps
+  MyLibrary(steps) {
+    this.steps = steps
+  }
+
   def printMessage(String msg) {
-    echo message: msg
+    steps.echo message: msg
   }
 }
